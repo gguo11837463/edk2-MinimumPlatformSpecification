@@ -35,10 +35,10 @@ Stage IV finalizes silicon initialization, adds basic operating system required
 interfaces, and supports minimally featured operating system boot. The new
 components are support in a dedicated firmware volume.
 
-| `Name`        | `Content`                    | `Compressed` | `Parent FV` |
-| ------------- | ---------------------------- | ------------ | ----------- |
-| FvOsBoot      | DXE/BDS Services             | Yes          | None        |
-| FvLateSilicon | ACPI and SMM silicon support | No           | FvOsBoot    |
+| `Name`                   | `Content`                    | `Compressed` | `Parent FV` |
+| ------------------------ | ---------------------------- | ------------ | ----------- |
+| FvOsBoot                 | DXE/BDS Services             | Yes          | None        |
+| FvLateSilicon[Uncompact] | ACPI and SMM silicon support | No           | FvOsBoot    |
 
 ###### Table 39 Stage IV Firmware Volumes
 
